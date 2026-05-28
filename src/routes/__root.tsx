@@ -74,14 +74,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Malin Group — Trusted engineering solutions" },
+      {
+        name: "description",
+        content:
+          "Integrated engineering, manufacturing and marine operations for complex projects across defence, nuclear, energy and infrastructure.",
+      },
+      { name: "author", content: "Malin Group" },
+      { property: "og:title", content: "Malin Group — Trusted engineering solutions" },
+      {
+        property: "og:description",
+        content:
+          "Integrated engineering, manufacturing and marine operations for the most complex projects.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
