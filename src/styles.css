@@ -93,8 +93,8 @@
   --accent-foreground: oklch(0.97 0.006 250);
 
   /* Restrained warm signal colour — Malin amber */
-  /* Brand teal — #004E58 */
-  --brand: oklch(0.38 0.05 215);
+  /* Brand teal — anchored on #004E58, lifted slightly so accents read on the dark canvas */
+  --brand: oklch(0.58 0.07 213);
   --brand-foreground: oklch(0.97 0.006 250);
 
   --destructive: oklch(0.62 0.21 25);
