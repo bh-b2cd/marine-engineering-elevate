@@ -93,16 +93,17 @@
   --accent-foreground: oklch(0.97 0.006 250);
 
   /* Restrained warm signal colour — Malin amber */
-  --brand: oklch(0.7 0.16 48);
-  --brand-foreground: oklch(0.18 0.024 255);
+  /* Brand teal — #004E58 */
+  --brand: oklch(0.38 0.05 215);
+  --brand-foreground: oklch(0.97 0.006 250);
 
   --destructive: oklch(0.62 0.21 25);
   --destructive-foreground: oklch(0.98 0.01 250);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.7 0.16 48);
+  --ring: oklch(0.38 0.05 215);
 
-  --chart-1: oklch(0.7 0.16 48);
+  --chart-1: oklch(0.38 0.05 215);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.55 0.12 240);
   --chart-4: oklch(0.828 0.189 84.429);
@@ -110,12 +111,12 @@
 
   --sidebar: oklch(0.18 0.024 255);
   --sidebar-foreground: oklch(0.97 0.006 250);
-  --sidebar-primary: oklch(0.7 0.16 48);
+  --sidebar-primary: oklch(0.38 0.05 215);
   --sidebar-primary-foreground: oklch(0.18 0.024 255);
   --sidebar-accent: oklch(0.255 0.028 257);
   --sidebar-accent-foreground: oklch(0.97 0.006 250);
   --sidebar-border: oklch(1 0 0 / 12%);
-  --sidebar-ring: oklch(0.7 0.16 48);
+  --sidebar-ring: oklch(0.38 0.05 215);
 }
 
 .dark {
